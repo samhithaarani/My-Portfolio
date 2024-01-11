@@ -452,22 +452,7 @@ body {
       background-attachment: scroll;
     }
   
-    #twoam {
-      background-attachment: scroll;
-    }
-  
-    .tagline1 {
-      font-size: 1.2em;
-    }
-  
-    .tagline2 {
-      font-size: 2.8em;
-    }
-  
-    .tagline3a, .tagline3b, .tagline3c {
-      font-size: 1em;
-    }
-  
+
     .section-title {
       font-size: 2.6em;
     }
@@ -535,17 +520,7 @@ body {
     background-attachment: fixed;
   }
 
-  .tagline1 {
-    font-size: 1.2em;
-  }
-
-  .tagline2 {
-    font-size: 2.8em;
-  }
-
-  .tagline3a, .tagline3b, .tagline3c {
-    font-size: 1em;
-  }
+  
 
   .section-title {
     font-size: 2.6em;
@@ -612,17 +587,6 @@ body {
     background-attachment: scroll;
   }
 
-  .tagline1 {
-    font-size: 1.2em;
-  }
-
-  .tagline2 {
-    font-size: 2.8em;
-  }
-
-  .tagline3a, .tagline3b, .tagline3c {
-    font-size: 1em;
-  }
 
   .section-title {
     font-size: 2.6em;
@@ -657,21 +621,6 @@ body {
     background-attachment: scroll;
   }
 
-  .tagline1 {
-    font-size: 1.2em;
-  }
-
-  .tagline2 {
-    font-size: 2.8em;
-  }
-
-  .tagline3a, .tagline3b, .tagline3c {
-    font-size: 1em;
-  }
-
-  .section-title {
-    font-size: 2.6em;
-  }
 
   .line {
     height: 2px;
@@ -713,21 +662,11 @@ body {
 /* Adjustments for smaller screens */
 @media (max-width: 767px) {
   #twoam {
+    max-width: 100%;
     background-attachment: scroll;
     height: 60vh; /* Adjust the height for better visibility on small screens */
   }
 
-  .tagline1 {
-    font-size: 1.2em;
-  }
-
-  .tagline2 {
-    font-size: 2.8em;
-  }
-
-  .tagline3a, .tagline3b, .tagline3c {
-    font-size: 1em;
-  }
 
   .section-title {
     font-size: 2.6em;

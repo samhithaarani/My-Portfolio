@@ -744,3 +744,65 @@ body {
     font-size: 1em; /* Adjust the font size for better readability on small screens */
   }
 }
+
+#twoam {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/my.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(28, 28, 28);
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 767px) {
+  #twoam {
+    background-attachment: scroll;
+    height: 60vh;
+    width: 100%;
+    padding-right: 0; /* Remove any padding on the right side */
+  }
+
+  .row.me {
+    text-align: center; /* Center the entire row on smaller screens */
+  }
+
+  .col-xs-offset-5,
+  .col-sm-offset-6,
+  .col-xs-7,
+  .col-sm-6 {
+    text-align: center; /* Align text to the center on smaller screens */
+  }
+
+  .tagline1,
+  .tagline2  {
+    text-align: center; /* Center the text on smaller screens */
+    font-size: 2em; /* Adjust font size for better readability on mobile */
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: white;
+    text-align: left;
+    text-shadow: 1px 1px black;
+    padding-top: 10px;
+  }
+
+  .tagline3a,
+  .tagline3b,
+  .tagline3c {
+    text-align: center; /* Center the text on smaller screens */
+    font-size: 1.2em; /* Adjust font size for better readability on mobile */
+    font-family: 'courier', sans-serif;
+    font-style: italic;
+    color: #f6e6e6;
+    text-align: left;
+    line-height: 1em;
+    text-shadow: 1px 1px black;
+  }
+}

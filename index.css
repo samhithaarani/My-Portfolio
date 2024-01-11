@@ -517,7 +517,7 @@ body {
   }
 
   #twoam {
-    background-attachment: fixed;
+    background-size: cover
   }
 
   
@@ -565,54 +565,6 @@ body {
   padding: 0;
 }
 
-#twoam {
-  width: 100%;
-  height: 100vh;
-  background-image: url("images/my.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: rgb(28, 28, 28);
-  color: white;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-/* Common styles for smaller screens (mobile) */
-@media (max-width: 767px) {
-  #contact,
-  #twoam {
-    background-attachment: scroll;
-  }
-
-
-  .section-title {
-    font-size: 2.6em;
-  }
-
-  .line {
-    height: 2px;
-    width: 70px;
-    position: relative;
-    top: -10px;
-    display: inline-block;
-    background-color: #666;
-  }
-
-  .icon-me {
-    font-size: 7.5em;
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
-
-  .icon-contact {
-    font-size: 4.5em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
 
 /* Specific styles for smaller height screens (adjust as needed) */
 @media only screen and (max-height: 939px) {
@@ -764,9 +716,16 @@ body {
 @media (max-width: 767px) {
   #twoam {
     background-attachment: scroll;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 60vh;
-    width: 100%;
-    padding-right: 0; /* Remove any padding on the right side */
+    width: 190%;
+    margin: 0;
+    padding: 0;/* Remove any padding on the right side */
+    left: 0;
+    right: 0;
   }
 
   .row.me {
@@ -805,4 +764,51 @@ body {
     line-height: 1em;
     text-shadow: 1px 1px black;
   }
+}
+
+/* Add the following styles to your existing CSS */
+
+/* Footer Styles */
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1% 5%;
+  text-align: center;
+  background-color: #000;
+  opacity: 0.9; /* Adjust opacity as needed */
+  z-index: 100;
+}
+
+footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+/* Add any additional styles for your footer content here */
+
+/* Example styles for social icons in the footer */
+#social-footer {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+#social-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#social-footer ul li {
+  display: inline;
+  padding: 0.4em;
+}
+
+#social-footer a {
+  color: white !important;
 }

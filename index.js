@@ -25,7 +25,7 @@ $(document).ready(function(){
     var projectData = [
       {
         title: 'CancerCareConnect',
-        text: '<p><strong>CancerCareConnect</strong> is made for a client <br> to handle info about lung metastasis.<br>can upload and share details <br>like names, primary tumor info, <br>metastasis count, and CT images securely. <br>The site has a private login system <br>for the surgeon to manage content. <br>It also shows a pie chart <br> with the types of primary tumors.<br></p><strong>Technologies Used:</strong><p>HTML, CSS, JavaScript,Python,Django, <br>and SQL</p>',
+        text: '<p><strong>CancerCareConnect</strong> is made for a client <br> to handle info about metastasis.<br>can upload and share details <br>like names, primary tumor info, <br>metastasis count, and CT images securely. <br>The site has a private login system <br>for the surgeon to manage content. <br>It also shows a pie chart <br> with the types of primary tumors.<br></p><strong>Technologies Used:</strong><p>HTML, CSS, JavaScript,Python,Django, <br>and SQL</p>',
        
      
         image: ['images/pr3.png'],
@@ -151,5 +151,10 @@ $(document).ready(function(){
     // turn on bootstrap tooltips
     $('[data-toggle="tooltip"]').tooltip();
   
-    
+    $(document).ready(function() {
+      $('#twoam .animated').addClass('fadeIn'); // Trigger fade-in animation on load
+      $('#down').addClass('slideInDown'); // Trigger slide-in-down animation on load
+  });
+
+
   });

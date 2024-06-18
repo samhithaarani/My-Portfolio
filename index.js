@@ -24,6 +24,16 @@ $(document).ready(function(){
     // data for the portfolio cards front and back
     var projectData = [
       {
+        title: 'Rentify',
+        text: '<p><strong> Rentify </strong>helps you discover the<br> perfect rental property <br>tailored to your needs. <br>Rentify streamlines the rental process, <br>making it easy to connect with <br>landlords and manage your applications.</p><strong>Technologies Used:</strong><p>HTML,CSS,Django</p>',
+       
+        image: ['images/ps5.png'],
+        site: [
+          ['Source-Code', 'fa-folder', 'https://github.com/samhithaarani/rentify'],
+          ['Live Site', 'fa-link', 'https://samhii333.pythonanywhere.com/accounts/register/']
+        ]
+      },
+      {
         title: 'CancerCareConnect',
         text: '<p><strong>CancerCareConnect</strong> is made for a client <br> to handle info about metastasis.<br>can upload and share details <br>like names, primary tumor info, <br>metastasis count, and CT images securely. <br>The site has a private login system <br>for the surgeon to manage content. <br>It also shows a pie chart <br> with the types of primary tumors.<br></p><strong>Technologies Used:</strong><p>HTML, CSS, JavaScript,Python,Django, <br>and SQL</p>',
        
@@ -42,15 +52,7 @@ $(document).ready(function(){
           ['Source-Code', 'fa-folder', 'https://s.codepen.io/MutantSpore/full/dojjre'],
           ['Live Site', 'fa-link', 'https://samflix-54f1e.web.app/']
         ]
-      }, {
-        title: 'TODO APP',
-        text: '<p>Simple<strong> TodoList</strong> app which helps us <br>to create ,edit and delete <br> todoitems along with the description.</p><strong>Technologies Used:</strong><p>ReactJs</p>',
-       
-        image: ['images/pr1.png'],
-        site: [
-          ['Source-Code', 'fa-folder', 'https://github.com/samhithaarani/todo-task']
-        ]
-      },
+      }, 
       /*                    
                           {
            title: 'Camper News',

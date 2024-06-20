@@ -16,12 +16,13 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(245, 152, 226);
+    
   }
   
   .navbar {
     z-index: 9999;
-    background-color: black;
+    background-color: rgb(245, 152, 226);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
   }
   
@@ -191,11 +192,11 @@ body {
   }
   
   .line.about {
-    background-color: rgba(0, 0, 0, 0.54);
+    background-color: rgba(101, 21, 21, 0.54);
   }
   
   .line.portfolio {
-    background-color: rgba(0, 0, 0, 0.54);
+    background-color: rgba(184, 24, 24, 0.54);
   }
   
   .line.contact {
@@ -395,7 +396,7 @@ body {
   .card_front:hover, .card_back:hover {
     left: -4px;
     top: -4px;
-    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 0px rgba(142, 60, 60, 0.5);
   }
   
   .card_front {
@@ -470,7 +471,7 @@ body {
   /* Default styles for larger screens */
 .navbar-inverse {
   background-color: #333;
-  border-color: #080808;
+  border-color: #b63030;
 }
 
 .navbar-inverse .navbar-brand,
@@ -537,8 +538,8 @@ body {
 
 /* Default styles for larger screens */
 .navbar-inverse {
-  background-color: #333;
-  border-color: #080808;
+  background-color: #8e1313;
+  border-color: #6a5454;
 }
 
 .navbar-inverse .navbar-brand,
@@ -761,7 +762,7 @@ footer {
   left: 0;
   padding: 1% 5%;
   text-align: center;
-  background-color: #000;
+  background-color: #1a1515;
   opacity: 0.9; /* Adjust opacity as needed */
   z-index: 100;
 }
